@@ -19,7 +19,7 @@ int main() {
 	sort(a , a+ n);  // Any sorting algorithm can be used such as mergesort or heapsort
 	
 for(int  i = 0; i<n ; i++){
-    if(i == k){               // after sorting the k will denote the position of the number 
+    if(i == k){               // after sorting the k will denote the position of the number whose index will be i-1 
         cout<<a[i-1];
     }
 }	

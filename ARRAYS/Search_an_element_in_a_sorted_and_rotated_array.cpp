@@ -2,7 +2,7 @@
 using namespace std; 
   
 
-int search(int arr[], int l, int h, int key) 
+int search(int arr[], int l, int h, int key)  //search function
 { 
     if (l > h) 
         return -1; 

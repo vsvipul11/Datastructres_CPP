@@ -28,7 +28,7 @@ int search(int arr[], int l, int h, int key)  //search function
 } 
   
 / 
-int main() 
+int main()  
 { 
     int arr[] = { 4, 5, 6, 7, 8, 9, 1, 2, 3 }; 
     int n = sizeof(arr) / sizeof(arr[0]); 

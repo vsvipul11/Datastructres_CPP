@@ -1,9 +1,3 @@
-#
-
-play_arrow
-
-brightness_5
-// C++ program to find max value of i*arr[i] 
 #include <iostream> 
 using namespace std; 
   

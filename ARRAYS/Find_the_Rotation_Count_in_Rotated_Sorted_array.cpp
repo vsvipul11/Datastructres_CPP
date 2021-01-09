@@ -1,12 +1,10 @@
 #include<bits/stdc++.h> 
 using namespace std; 
   
-// Returns count of rotations for an array which 
-// is first sorted in ascending order, then rotated 
+
 int countRotations(int arr[], int n) 
 { 
-    // We basically find index of minimum 
-    // element 
+    
     int min = arr[0], min_index; 
     for (int i=0; i<n; i++) 
     { 
@@ -19,7 +17,7 @@ int countRotations(int arr[], int n)
     return min_index; 
 } 
   
-// Driver code 
+
 int main() 
 { 
     int arr[] = {15, 18, 2, 3, 6, 12}; 

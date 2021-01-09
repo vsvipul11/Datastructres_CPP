@@ -31,8 +31,7 @@ int maxHamming(int arr[], int n)
   
     return maxHam; 
 } 
-  
-// driver program 
+
 int main()  
 { 
     int arr[] = {2, 4, 6, 8};     

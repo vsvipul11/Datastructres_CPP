@@ -1,7 +1,6 @@
 #include<bits/stdc++.h> 
 using namespace std; 
  
-
 int countRotations(int arr[], int n) 
 { 
     

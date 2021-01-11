@@ -15,7 +15,7 @@ int countRotations(int arr[], int n)
     } 
     return min_index; 
 } 
-  //main function
+  
 int main() 
 { 
     int arr[] = {15, 18, 2, 3, 6, 12}; 

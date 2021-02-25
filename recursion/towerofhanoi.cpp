@@ -5,7 +5,7 @@ using namespace std;
 void tower(int n, int a , int c , int b){
     
     if(n==1){
-        cout<<" move "<<n<<" form "<<a <<" to "<<c<<endl;
+        cout<<" move "<<n<<" from "<<a <<" to "<<c<<endl;
         return;
     }
     

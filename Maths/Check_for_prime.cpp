@@ -1,35 +1,23 @@
- #include<bits/stdc++.h>
-    using namespace std;
-
-
-
-void prime(int a , int b){
-
-    for(int i = a ; i<=b ; i++){
-        if(i==1){
-            continue;
-        }
-        
-        if(i==2 || i ==3 || i == 5 || i==7){
-            cout<<i<<" ";
-            continue;
-        }
-        if(i%2==0 || i%3==0 ||i%5==0 || i%7== 0){
-            continue;
-        }else{
-            cout<<i<<" ";
-        }
-    }
-    
-    
-    
+#include <iostream>
+using namespace std;
+void primeNumbers (int lbound, int ubound) {
+   int flag, i;
+   while (lbound <= ubound) {
+      flag = 0;
+      for(i = 2; i <= lbound/2; i++) {
+         if(lbound % i == 0) {
+            flag = 1;
+            break;
+         }
+      }
+      if (flag == 0)
+      cout<<lbound<<" ";
+      lbound++;
+   }
 }
-
-int main(){
-  int a = 1;
-  int b = 100;
-  
-  prime(1 , 100);
-    
-    return 0;
+int main() {
+   int lowerbound = 20, upperbound = 50;
+   cout<<"Prime numbers between "<<lowerbound<<" and "<<upperbound<<" are: ";
+   primeNumbers(lowerbound,upperbound);
+   return 0;
 }

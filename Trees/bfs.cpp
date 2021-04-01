@@ -50,9 +50,7 @@ void bfs(node* root){
       }  
     }
     
- return ;   
-    
-    
+ return ;
     
 }
 

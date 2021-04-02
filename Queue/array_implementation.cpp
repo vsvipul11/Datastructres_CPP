@@ -15,6 +15,7 @@ class queue1{
         a = new int[n];
         front = -1;
         rear = -1;
+      
         
     }
     

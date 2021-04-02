@@ -8,6 +8,7 @@ void primeNumbers (int lbound, int ubound) {
          if(lbound % i == 0) {
             flag = 1;
             break;
+       
          }
       }
       if (flag == 0)

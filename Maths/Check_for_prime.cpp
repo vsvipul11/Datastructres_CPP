@@ -14,7 +14,8 @@ void primeNumbers (int lbound, int ubound) {
       cout<<lbound<<" ";
       lbound++;
    }
-}
+} 
+
 int main() {
    int lowerbound = 20, upperbound = 50;
    cout<<"Prime numbers between "<<lowerbound<<" and "<<upperbound<<" are: ";
